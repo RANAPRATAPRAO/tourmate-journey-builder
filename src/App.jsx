@@ -12,8 +12,14 @@ import { IconCards } from "./components/IconCards";
 function App(){
   return(
     <>
-   
+    <Navbar1/>
+    <HeroSection/>
+    <CardHoverEffect/>
     <IconCards/>
+    <Footer/>
+    <Signup/>
+    <Signin/>
+    
     </>
   )
 }
