@@ -1,0 +1,143 @@
+{
+    "features": [
+      {
+        "id": 1,
+        "title": "Weather",
+        "description": "Know Weather Forcast",
+        "isTrending": true,
+        "image": "/public/icons/location.png",
+        "link":  "/weather"
+      },
+      {
+        "id": 2,
+        "title": "Anywhere",
+        "description": "Explore any location",
+        "isTrending": true,
+        "image": "/public/icons/delhi-gate.png",
+        "link":  "/weather"
+      },
+      {
+        "id": 3,
+        "title": "City",
+        "description": "Find city",
+        "isTrending": true,
+        "image": "/public/icons/delhi-gate.png",
+        "link":  "/weather"
+      },
+      {
+        "id": 4,
+        "title": "LandMark",
+        "description": "Discover Landmark",
+        "isTrending": true,
+        "image": "/public/icons/location.png",
+        "link":  "/weather"
+      },
+      {
+        "id": 5,
+        "title": "Route",
+        "description": "Plan Routes",
+        "isTrending": true,
+        "image": "/public/icons/location.png",
+        "link":  "/weather"
+      },
+      {
+        "id": 6,
+        "title": "Panorma",
+        "description": "Discover panorma",
+        "isTrending": true,
+        "image": "/public/icons/delhi-gate.png",
+        "link":  "/weather"
+      },
+      {
+        "id": 7,
+        "title": "Mountain",
+        "description": "Find Mountains",
+        "isTrending": true,
+        "image": "/public/icons/delhi-gate.png",
+        "link":  "/weather"
+      },
+      {
+        "id": 8,
+        "title": "Beach",
+        "description": "Explore beaches",
+        "isTrending": true,
+        "image": "/public/icons/location.png",
+        "link":  "/weather"
+      },
+      {
+        "id": 9,
+        "title": "Anywhere",
+        "description": "Explore any location",
+        "isTrending": true,
+        "image": "/public/icons/delhi-gate.png",
+        "link":  "/weather"
+      },
+      {
+        "id": 10,
+        "title": "Restaurant",
+        "description": "Find Restaurant",
+        "isTrending": true,
+        "image": "/public/icons/location.png",
+        "link":  "/weather"
+      },
+      {
+        "id": 11,
+        "title": "Art Gallery",
+        "description": "Explore art gallery",
+        "isTrending": true,
+        "image": "/public/icons/delhi-gate.png",
+        "link":  "/weather"
+      }
+    ],
+
+
+
+    "places": [
+      {
+        "id": 1,
+        "title": "Delhi",
+        "image": "/public/general/hero3.png"
+      },
+      {
+        "id": 2,
+        "title": "Bihar",
+        "image": "/public/general/hero1.png"
+      },
+      {
+        "id": 3,
+        "title": "Tamil Nadu",
+        "image": "/public/general/hero.png"
+      },
+      {
+        "id": 4,
+        "title": "Kerala",
+        "image": "/public/general/hero3.png"
+      },
+      {
+        "id": 5,
+        "title": "Karnatka",
+        "image": "/public/general/hero2.png"
+      },
+      {
+        "id": 6,
+        "title": "Utter Pradesh",
+        "image": "/public/general/hero1.png"
+      },
+      {
+        "id": 7,
+        "title": "Aasam",
+        "image": "/public/general/hero1.png"
+      },
+      {
+        "id": 8,
+        "title": "Manipur",
+        "image": "/public/general/hero1.png"
+      },{
+        "id": 9,
+        "title": "Mumbai",
+        "image": "/public/general/hero2.png"
+      }
+    ]
+
+
+  }

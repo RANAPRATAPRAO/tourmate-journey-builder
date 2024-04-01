@@ -1,16 +1,11 @@
-
 import React, { useState, useRef, useEffect } from "react";
 import { LayoutGrid } from "../components/ui/layout-grid";
 
-
-export function HeroSection() {
+export function PlacesGrid() {
   return (
     <div className="h-[50rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
-    {/* Radial gradient for the container to give a faded look */}
-    <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-    <LayoutGrid cards={cards} />
+     <LayoutGrid cards={cards} />
     </div>
-   
   );
 }
 
@@ -70,25 +65,24 @@ const cards = [
     id: 1,
     content: <SkeletonOne />,
     className: "md:col-span-2",
-    thumbnail: "/temple/temple1.jpg"
-    
+    thumbnail: "/temple/temple1.jpg",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
-    thumbnail:"/temple/temple2.jpg"
+    thumbnail: "/temple/temple2.jpg",
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
-    thumbnail: "/temple/temple3.png"
+    thumbnail: "/temple/temple3.png",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
-    thumbnail: "/temple/taj.jpg"
+    thumbnail: "/temple/taj.jpg",
   },
 ];

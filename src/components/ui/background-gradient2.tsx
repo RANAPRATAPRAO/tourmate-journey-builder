@@ -60,7 +60,7 @@ export const BackgroundGradient2 = ({
             : undefined
         }
         style={{
-          backgroundSize: animate ? "2% 2%" : undefined,
+          backgroundSize: animate ? "0% 0%" : undefined,
         }}
         className={cn(
           "absolute inset-0 rounded-2xl z-[1]",
