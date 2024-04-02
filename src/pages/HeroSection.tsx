@@ -27,7 +27,7 @@ export function HeroSection() {
           {/* this is for the input  and Search Button */}
           <div className="absolute left-0 bottom-0 p-10 w-full md:w-auto">
     <form className="my-8">
-      <div className="flex items-center mb-40">
+      <div className="flex items-center mb-10">
         <Input
           id="firstname"
           placeholder="TourMate"
