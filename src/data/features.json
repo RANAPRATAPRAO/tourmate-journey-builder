@@ -5,7 +5,7 @@
         "title": "Weather",
         "description": "Know Weather Forcast",
         "isTrending": true,
-        "image": "/public/icons/location.png",
+        "image": "icons/cloud.png",
         "link":  "/weather"
       },
       {
@@ -13,7 +13,7 @@
         "title": "Anywhere",
         "description": "Explore any location",
         "isTrending": true,
-        "image": "/public/icons/delhi-gate.png",
+        "image": "icons/map-2.png",
         "link":  "/weather"
       },
       {
@@ -21,7 +21,7 @@
         "title": "City",
         "description": "Find city",
         "isTrending": true,
-        "image": "/public/icons/delhi-gate.png",
+        "image": "icons/building.png",
         "link":  "/weather"
       },
       {
@@ -29,7 +29,7 @@
         "title": "LandMark",
         "description": "Discover Landmark",
         "isTrending": true,
-        "image": "/public/icons/location.png",
+        "image": "icons/map-pin.png",
         "link":  "/weather"
       },
       {
@@ -37,7 +37,7 @@
         "title": "Route",
         "description": "Plan Routes",
         "isTrending": true,
-        "image": "/public/icons/location.png",
+        "image": "icons/route.png",
         "link":  "/weather"
       },
       {
@@ -45,7 +45,7 @@
         "title": "Panorma",
         "description": "Discover panorma",
         "isTrending": true,
-        "image": "/public/icons/delhi-gate.png",
+        "image": "icons/panorama-vertical.png",
         "link":  "/weather"
       },
       {
@@ -53,7 +53,7 @@
         "title": "Mountain",
         "description": "Find Mountains",
         "isTrending": true,
-        "image": "/public/icons/delhi-gate.png",
+        "image": "icons/mountain.png",
         "link":  "/weather"
       },
       {
@@ -61,15 +61,7 @@
         "title": "Beach",
         "description": "Explore beaches",
         "isTrending": true,
-        "image": "/public/icons/location.png",
-        "link":  "/weather"
-      },
-      {
-        "id": 9,
-        "title": "Anywhere",
-        "description": "Explore any location",
-        "isTrending": true,
-        "image": "/public/icons/delhi-gate.png",
+        "image": "icons/beach.png",
         "link":  "/weather"
       },
       {
@@ -77,7 +69,7 @@
         "title": "Restaurant",
         "description": "Find Restaurant",
         "isTrending": true,
-        "image": "/public/icons/location.png",
+        "image": "icons/chef-hat.png",
         "link":  "/weather"
       },
       {
@@ -85,7 +77,7 @@
         "title": "Art Gallery",
         "description": "Explore art gallery",
         "isTrending": true,
-        "image": "/public/icons/delhi-gate.png",
+        "image": "icons/artboard.png",
         "link":  "/weather"
       }
     ],
@@ -94,58 +86,66 @@
 
     "places": [
       {
-        "id": 1,
-        "title": "Delhi",
-        "image": "/public/general/hero3.png",
-        "link": "/Delhi"
-      },
-      {
-        "id": 2,
-        "title": "Bihar",
-        "image": "/public/general/hero1.png",
-        "link": "/Bihar"
-      },
-      {
-        "id": 3,
-        "title": "Tamil Nadu",
-        "image": "/public/general/hero.png",
-        "link": "/Tamil Nadu"
-      },
-      {
-        "id": 4,
-        "title": "Kerala",
-        "image": "/public/general/hero3.png",
-        "link": "/Kerala"
+        "id": 8,
+        "title": "Ladakh",
+        "image": "states/ladhakh.jpeg",
+        "link": "/Ladakh"
       },
       {
         "id": 5,
         "title": "Karnataka",
-        "image": "/public/general/hero2.png",
+        "image": "states/karnatka.jpeg",
         "link": "/Karnataka"
       },
       {
         "id": 6,
         "title": "Utter Pradesh",
-        "image": "/public/general/hero1.png",
+        "image": "states/ram.jpeg",
         "link": "/Utter Pradesh"
       },
       {
         "id": 7,
-        "title": "Aasam",
-        "image": "/public/general/hero1.png",
-        "link": "/Aasam"
+        "title": "Kashmir",
+        "image": "states/kashmir.jpeg",
+        "link": "/Kashmir"
       },
       {
-        "id": 8,
-        "title": "Manipur",
-        "image": "/public/general/hero1.png",
-        "link": "/Manipur"
-      },{
+        "id": 1,
+        "title": "Bihar",
+        "image": "states/bodhgaya.jpeg",
+        "link": "/Bihar"
+      },
+      {
         "id": 9,
         "title": "Mumbai",
-        "image": "/public/general/hero2.png",
+        "image": "states/mumbai.jpeg",
         "link": "/Mumbai"
+      },
+      {
+        "id": 10,
+        "title": "Lakshadweep",
+        "image": "states/lakshadweep.jpeg",
+        "link": "/Laksh"
+      },
+      {
+        "id": 11,
+        "title": "Goa",
+        "image": "states/goa.jpeg",
+        "link": "/Goa"
+      },
+      {
+        "id": 3,
+        "title": "Tamil Nadu",
+        "image": "states/tamil.jpg",
+        "link": "/Tamil Nadu"
+      },
+      {
+        "id": 4,
+        "title": "Kerala",
+        "image": "states/kerala.jpeg",
+        "link": "/Kerala"
       }
+      
     ]
 
 

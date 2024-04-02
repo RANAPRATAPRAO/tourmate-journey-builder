@@ -30,8 +30,8 @@ export function IconCards() {
       <h2 className="mb-8 text-center text-base text-teal-400 font-bold tracking-wide uppercase">
         Trending places in India
       </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 justify-center">
-        {featuredPlaces.slice(0, 8).map((place: Places) => (
+      <div className="grid grid-cols-2 sm:grid-cols-5 gap-6 justify-center">
+        {featuredPlaces.slice(0, 10).map((place: Places) => (
           <div key={place.id} className="flex flex-col items-center">
             <BackgroundGradient className="flex flex-col rounded-[15px] bg-white dark:bg-zinc-900 overflow-hidden max-w-60 h-55">
             <Link to={place?.link}>
@@ -40,8 +40,8 @@ export function IconCards() {
                   src={place.image}
                   alt="jordans"
                   style={{
-                    width: "100wv",
-                    height: "100hv",
+                    width: "100%",
+                    height: "100%",
                     objectFit: "cover",
                     borderRadius: "10px",
                   }}

@@ -8,11 +8,16 @@ import { HeroSection } from './pages/HeroSection.tsx'
 import { IconCards } from './pages/IconCards.tsx'
 import { PlacesGrid } from './pages/PlacesGrid.tsx'
 import { PopularDestinations } from './pages/PopularDestinations.tsx'
-import { ArtGalllery } from './pages/Art-Gallery.tsx'
-import { States_Places } from './subpages/States_Places.tsx'
-import WeatherApp from "./features/weather.jsx"
-import { ParticularPlaces } from './subpages/ParticularPLaces.tsx'
-import { Holiday1 } from './holiday/Holiday1.tsx'
+import { Bihar_Places } from './states_India/Bihar.tsx'
+import { Kerala_Places } from './states_India/Kerala.tsx'
+import { GOA } from './states_India/Goa.tsx'
+import {Laksh} from "./states_India/Lakhshadweep.tsx"
+import { Karnataka_places } from './states_India/Karnataka.tsx'
+import { UP } from './states_India/UP.tsx'
+import { Tamilnadu_places } from './states_India/Tamilnadu.tsx'
+import { KASHMIR } from './states_India/Kashmir.tsx'
+import { LADAKH } from './states_India/Ladhakh.tsx'
+import { Mumbai_places } from './states_India/mumbai.tsx'
 
 
 
@@ -40,55 +45,44 @@ const router = createBrowserRouter([
       },
       {
         path:"/Bihar",
-        element:<ParticularPlaces/>,
+        element:<Bihar_Places/>,
       },
       {
         path:"/Kerala",
-        element:<States_Places/>,
+        element:<Kerala_Places/>,
       },
       {
-        path:"/Holiday1",
-        element:<Holiday1/>,
+        path:"/Ladakh",
+        element:<LADAKH/>,
       },
       {
-        path:"/Mysore",
-        element:<States_Places/>,
+        path:"/Mumbai",
+        element:<Mumbai_places/>,
       },
       {
-        path:"/Ranthambore",
-        element:<States_Places/>,
+        path:"/Kashmir",
+        element:<KASHMIR/>,
       },
       {
-        path:"/Darjeeling",
-        element:<States_Places/>,
+        path:"/Tamil Nadu",
+        element:<Tamilnadu_places/>,
       },
       {
-        path:"/Varansi",
-        element:<States_Places/>,
+        path:"/Utter Pradesh",
+        element:<UP/>,
       },
       {
-        path:"/Jaipur",
-        element:<States_Places/>,
+        path:"/Karnataka",
+        element:<Karnataka_places/>,
       },
       {
-        path:"/Agra",
-        element:<States_Places/>,
+        path:"/Lakshadweep",
+        element:<Laksh/>,
       },
       {
-        path:"/Weather",
-        element:<WeatherApp/>
-      },
-      {
-        path:"/Delhi",
-        element:<States_Places/>
-      },
-      {
-        path:"/Bihar",
-        element:<States_Places/>
-      },
-      
-      
-
+        path:"/Goa",
+        element:<GOA/>,
+      }
     ]
   }
 ])
