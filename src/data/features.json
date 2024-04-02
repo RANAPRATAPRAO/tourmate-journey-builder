@@ -96,46 +96,55 @@
       {
         "id": 1,
         "title": "Delhi",
-        "image": "/public/general/hero3.png"
+        "image": "/public/general/hero3.png",
+        "link": "/Delhi"
       },
       {
         "id": 2,
         "title": "Bihar",
-        "image": "/public/general/hero1.png"
+        "image": "/public/general/hero1.png",
+        "link": "/Bihar"
       },
       {
         "id": 3,
         "title": "Tamil Nadu",
-        "image": "/public/general/hero.png"
+        "image": "/public/general/hero.png",
+        "link": "/Tamil Nadu"
       },
       {
         "id": 4,
         "title": "Kerala",
-        "image": "/public/general/hero3.png"
+        "image": "/public/general/hero3.png",
+        "link": "/Kerala"
       },
       {
         "id": 5,
-        "title": "Karnatka",
-        "image": "/public/general/hero2.png"
+        "title": "Karnataka",
+        "image": "/public/general/hero2.png",
+        "link": "/Karnataka"
       },
       {
         "id": 6,
         "title": "Utter Pradesh",
-        "image": "/public/general/hero1.png"
+        "image": "/public/general/hero1.png",
+        "link": "/Utter Pradesh"
       },
       {
         "id": 7,
         "title": "Aasam",
-        "image": "/public/general/hero1.png"
+        "image": "/public/general/hero1.png",
+        "link": "/Aasam"
       },
       {
         "id": 8,
         "title": "Manipur",
-        "image": "/public/general/hero1.png"
+        "image": "/public/general/hero1.png",
+        "link": "/Manipur"
       },{
         "id": 9,
         "title": "Mumbai",
-        "image": "/public/general/hero2.png"
+        "image": "/public/general/hero2.png",
+        "link": "/Mumbai"
       }
     ]
 

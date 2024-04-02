@@ -11,6 +11,8 @@ import { PopularDestinations } from './pages/PopularDestinations.tsx'
 import { ArtGalllery } from './pages/Art-Gallery.tsx'
 import { States_Places } from './subpages/States_Places.tsx'
 import WeatherApp from "./features/weather.jsx"
+import { ParticularPlaces } from './subpages/ParticularPLaces.tsx'
+import { Holiday1 } from './holiday/Holiday1.tsx'
 
 
 
@@ -37,16 +39,16 @@ const router = createBrowserRouter([
         element:<HomePage/>,
       },
       {
-        path:"/TajMahal",
-        element:<States_Places/>,
+        path:"/Bihar",
+        element:<ParticularPlaces/>,
       },
       {
         path:"/Kerala",
         element:<States_Places/>,
       },
       {
-        path:"/Goa",
-        element:<States_Places/>,
+        path:"/Holiday1",
+        element:<Holiday1/>,
       },
       {
         path:"/Mysore",
@@ -75,7 +77,15 @@ const router = createBrowserRouter([
       {
         path:"/Weather",
         element:<WeatherApp/>
-      }
+      },
+      {
+        path:"/Delhi",
+        element:<States_Places/>
+      },
+      {
+        path:"/Bihar",
+        element:<States_Places/>
+      },
       
       
 

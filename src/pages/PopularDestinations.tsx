@@ -8,7 +8,7 @@ export function PopularDestinations() {
         Explore popular Destinations in India
         </h2>
 
-    <div className="max-w-5xl mx-auto px-8 ">
+    <div className="max-w-7xl mx-auto px-8 ">
       <HoverEffect items={projects} />
     </div>
     </div>

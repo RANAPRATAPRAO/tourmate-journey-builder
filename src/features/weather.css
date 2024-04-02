@@ -1,7 +1,9 @@
 body{
-    background-color: #222;
+    background-color: #000000; /* Black background */
+    background-image: linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.1) 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.1) 50%);
+    background-size: 20px 20px; /* Size of the grid cells */
 }
-/* .card{
+.card{
     width: 100%;
     max-width: 470px;
     background:linear-gradient(135deg,#013d2c,#07012b);
@@ -10,17 +12,8 @@ body{
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-} */
-.card {
-    width: 60w; /* Full viewport width */
-    height: 60vh; /* Full viewport height */
-    background: linear-gradient(135deg, #013d2c, #07012b);
-    color: #fff;
-    margin: 0 auto; /* Center horizontally */
-    border-radius: 0; /* Remove border-radius */
-    padding: 40px 35px;
-    text-align: center;
 }
+
 .search{
     width: 100%;
     display: flex;
@@ -42,7 +35,7 @@ font-size: 18px;
     border: 0;
     outline: 0;
     background: #014137;
-    align-items: center;
+    align-items: end;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -53,7 +46,10 @@ font-size: 18px;
 }
 
 .search button img{
-    width: 16px;
+    
+    width: 40px;
+    padding-left: 18px;
+    
 }
 .whether h1{
     font-size: 80px;
