@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="flex justify-center items-center h-screen">
         <div className="relative w-full md:w-4/5 h-4/5">
           <img
-            src="/public/general/Hero.png"
+            src="general/Hero.png"
             alt="Home page"
             className="w-full h-full object-cover rounded-lg pb-10"
           />

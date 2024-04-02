@@ -18,28 +18,28 @@ export function MovingCards() {
 const testimonials = [
  {
   name:"1",
-  image:"/public/temple/temple3.png",
+  image:"temple/temple3.png",
   link:"#features"
  },
  {
   name:"3",
-  image:"/public/temple/temple2.jpg",
+  image:"temple/temple2.jpg",
   link:"#features"
  },
  {
   name:"4",
-  image:"/public/temple/temple1.jpg",
+  image:"temple/temple1.jpg",
   link:"#features"
  },
  
  {
   name:"5",
-  image:"/public/temple/taj.jpg",
+  image:"temple/taj.jpg",
   link:"#features"
  },
  {
   name:"6",
-  image:"/public/temple/temple3.png",
+  image:"temple/temple3.png",
   link:"#features"
  },
 ];
