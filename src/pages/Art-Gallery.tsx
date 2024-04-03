@@ -3,7 +3,7 @@ import { ParallaxScroll } from "../components/ui/parallax-scroll";
 
 export function ArtGalllery() {
   return (
-    <div className=" min-h-screen  w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] ">
+    <div className="overflow-x-hidden overflow-y-auto min-h-screen  w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] ">
     <ParallaxScroll images={images} />
     </div>
   );

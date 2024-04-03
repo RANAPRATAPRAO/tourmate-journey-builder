@@ -25,26 +25,21 @@ export function IconCards() {
   );
   const featuredPlaces = courseData.places.filter((place: Places) => place);
   return (
-    <div className="min-h-screen w-full dark:bg-black bg-white dark:bg-grid-white/[0.2] bg-grid-black/[0.2]">
+    <div className="min-h-screen w-full dark:bg-black bg-white dark:bg-grid-white/[0.2] bg-grid-black/[0.2] overflow-hidden">
       {/* <div className="mt-10 mx-8 w-full"> */}
       <h2 className="mb-8 text-center text-base text-teal-400 font-bold tracking-wide uppercase">
         Trending places in India
       </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-5 gap-6 justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-4 gap-6 justify-center">
         {featuredPlaces.slice(0, 10).map((place: Places) => (
           <div key={place.id} className="flex flex-col items-center">
-            <BackgroundGradient className="flex flex-col rounded-[15px] bg-white dark:bg-zinc-900 overflow-hidden max-w-60 h-55">
+            <BackgroundGradient className="flex flex-col rounded-[15px] bg-white dark:bg-zinc-900 overflow-hidden w-60 h-60">
             <Link to={place?.link}>
               <div className="flex flex-col items-center text-center flex-grow">
                 <img
                   src={place.image}
-                  alt="jordans"
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                    borderRadius: "10px",
-                  }}
+                  alt="states"
+                 className="w-full h-60 object-cover rounded-[15px]"
                 />
               </div>
               </Link>
@@ -57,14 +52,14 @@ export function IconCards() {
         {/* </div> */}
       </div>
 
-      <div className="mt-10 pl-4 pr-4 ">
-        <h2 className="text-3xl font-semibold text-center text-white mb-4">
+      <div className="mt-10 pl-2 pr-2 ">
+        <h2 className="text-3xl font-semibold text-center text-white mb-2">
           Features of the website
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-5 gap-8 justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-5 gap-8 justify-center">
           {featuredCourses.map((feature: Feature) => (
             <div key={feature.id} className="flex justify-center">
-              <BackgroundGradient2 className="flex flex-col rounded-[10px] bg-gray-500 dark:bg-gray-800 overflow-hidden max-w-15 h-15 ">
+              <BackgroundGradient2 className="flex flex-col rounded-[10px] bg-gray-500 dark:bg-gray-800 overflow-hidden  ">
                 <Link to={feature?.link}>
                   <div className="p-1 sm:p-2 flex flex-col items-center text-center flex-grow">
                     <img

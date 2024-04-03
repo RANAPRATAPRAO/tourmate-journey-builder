@@ -3,7 +3,7 @@ import { HoverEffect } from "../components/ui/card-hover-effect";
 
 export function PopularDestinations() {
   return (
-    <div className="min-h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] ">
+    <div className="min-h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] overflow-hidden">
     <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200 text-center">
         Explore popular Destinations in India
         </h2>

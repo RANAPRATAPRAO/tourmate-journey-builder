@@ -16,17 +16,17 @@ export function Navbar1() {
     },
     {
       name: "Features",
-      link: "#features",
+      link: "features",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Holiday Ideas",
-      link: "#holiday",
+      link: "holiday",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Trending Places",
-      link: "#MovingCards",
+      link: "MovingCards",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {

@@ -18,13 +18,14 @@ import { Tamilnadu_places } from './states_India/Tamilnadu.tsx'
 import { KASHMIR } from './states_India/Kashmir.tsx'
 import { LADAKH } from './states_India/Ladhakh.tsx'
 import { Mumbai_places } from './states_India/mumbai.tsx'
+import { ArtGalllery } from './pages/Art-Gallery.tsx'
 
 
 
 
 const HomePage=()=>(
   <>
-        <HeroSection/>
+        
         <div id="MovingCards"><MovingCards/></div>
         <div id="features"><IconCards/></div>
         <div id="holiday"><PlacesGrid/></div>
@@ -41,7 +42,7 @@ const router = createBrowserRouter([
     children:[
       {
         path:"/",
-        element:<HomePage/>,
+        element:<HomePage />,
       },
       {
         path:"/Bihar",
@@ -82,7 +83,11 @@ const router = createBrowserRouter([
       {
         path:"/Goa",
         element:<GOA/>,
-      }
+      },
+      {
+        path:"/ArtGallery",
+        element:<ArtGalllery/>,
+           }
     ]
   }
 ])

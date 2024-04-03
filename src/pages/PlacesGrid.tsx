@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export function PlacesGrid() {
   return (
-    <div className="h-[50rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
+    <div className="h-[50rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center overflow-hidden">
      <LayoutGrid cards={cards} />
     </div>
   );
