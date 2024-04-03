@@ -3,7 +3,15 @@ import {
   IconBrandGithub,
   IconBrandGoogle,
   IconBrandOnlyfans,
+  IconBrandYoutubeFilled,
+  IconBrandTwitterFilled,
+  IconBrandFacebookFilled,
+  IconBrandInstagram,
+  IconHomeFilled,
+  IconAddressBook,
+  IconMail,
 } from "@tabler/icons-react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -12,78 +20,97 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4 text-white text-lg">
-           TourMate: Where every journey is a story waiting to be told.
-           Explore with us and uncover the world's hidden treasures,
-            one adventure at a time.
+            TourMate: Where every journey is a story waiting to be told. Explore
+            with us and uncover the world's hidden treasures, one adventure at a
+            time.
           </p>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
-          <ul className="text-white text-lg">
-            <li>
-              <a
-                href="#"
-                className=" hover:text-white transition-colors duration-300"
+          <ul className="text-white text-lg ">
+            <li className="mt-6">
+              <Link
+                to="#"
+                className=" hover:text-yellow-200 transition-colors duration-300"
               >
-                Home
-              </a>
+                <div className="flex items-center space-x-2">
+                <IconHomeFilled/>
+                <span>Home</span>
+              </div>
+              </Link>
             </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors duration-300"
+            <li className="mt-6">
+              <Link
+                to="#"
+                className=" hover:text-blue-400 transition-colors duration-300"
               >
-                About
-              </a>
+                <div className="flex items-center space-x-2">
+                <IconAddressBook stroke={2} />
+                <span>Contact</span>
+              </div>
+              </Link>
             </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors duration-300"
+            <li className="mt-6">
+              <Link
+                to="#"
+                className=" hover:text-red-800 transition-colors duration-300"
               >
-                Courses
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Contact
-              </a>
+                <div className="flex items-center space-x-2">
+                <IconMail stroke={2} />
+                <span>Email</span>
+              </div>
+              </Link>
             </li>
           </ul>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
-          <div className="flex text-white text-lg space-x-4">
-            <a
-              href="#"
-              className="hover:text-white transition-colors duration-300"
+          <div className=" text-white text-lg space-x-4">
+            <Link
+              to="#"
+              className="hover:text-red-800 transition-colors duration-300"
             >
-              GitHub
-            </a>
-            <a
-              href="#"
-              className="hover:text-white transition-colors duration-300"
+              <div className="flex items-center space-x-2">
+                <IconBrandYoutubeFilled stroke={2} />
+                <span>Youtube</span>
+              </div>
+            </Link>
+            <Link
+              to="/youtube.com"
+              className="hover:text-red-400 transition-colors duration-300"
             >
-              Twitter
-            </a>
-            <a
-              href="#"
-              className="hover:text-white transition-colors duration-300"
+              <div className="flex items-center space-x-2">
+                <IconBrandInstagram stroke={2} />
+                <span>Instagram</span>
+              </div>
+            </Link>
+            <Link
+              to="#"
+              className="hover:text-blue-800 transition-colors duration-300"
             >
-              Instagram
-            </a>
+              <div className="flex items-center space-x-2">
+                <IconBrandFacebookFilled/>
+                <span>Facebook</span>
+              </div>
+            </Link>
+            <Link
+              to="#"
+              className="hover:text-grey-500 transition-colors duration-300"
+            >
+              <div className="flex items-center space-x-2">
+                <IconBrandTwitterFilled/>
+                <span>Twitter</span>
+              </div>
+            </Link>
           </div>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
           <div className="text-white text-lg">
-          <p>Bettiah Bihar, India</p>
-          <p>Delhi 10001</p>
-          <p>Email: rrr725497@gmail.com</p>
-          <p>Phone: 7254972031</p>
+            <p>Bettiah Bihar, India</p>
+            <p>Bihar 845438</p>
+            <p>Email: rrr725497@gmail.com</p>
+            <p>Phone: 7254972031</p>
           </div>
         </div>
       </div>

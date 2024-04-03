@@ -30,7 +30,7 @@ export function IconCards() {
       <h2 className="mb-8 text-center text-base text-teal-400 font-bold tracking-wide uppercase">
         Trending places in India
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-4 gap-6 justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-4 py-10 gap-6 justify-center">
         {featuredPlaces.slice(0, 10).map((place: Places) => (
           <div key={place.id} className="flex flex-col items-center">
             <BackgroundGradient className="flex flex-col rounded-[15px] bg-white dark:bg-zinc-900 overflow-hidden w-60 h-60">
@@ -56,7 +56,7 @@ export function IconCards() {
         <h2 className="text-3xl font-semibold text-center text-white mb-2">
           Features of the website
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-5 gap-8 justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-5 sm:grid-cols-3 lg:gird-cols-6 gap-8 justify-center">
           {featuredCourses.map((feature: Feature) => (
             <div key={feature.id} className="flex justify-center">
               <BackgroundGradient2 className="flex flex-col rounded-[10px] bg-gray-500 dark:bg-gray-800 overflow-hidden  ">

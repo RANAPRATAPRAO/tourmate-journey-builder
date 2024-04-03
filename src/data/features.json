@@ -6,7 +6,7 @@
         "description": "Know Weather Forcast",
         "isTrending": true,
         "image": "icons/cloud.png",
-        "link":  "/weather"
+        "link":  "/Weather"
       },
       {
         "id": 2,
