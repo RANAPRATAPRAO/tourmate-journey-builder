@@ -4,7 +4,7 @@ import '../features/weather.css'; // Import CSS file
 function WeatherApp() {
   const [city, setCity] = useState('');
   const [weatherData, setWeatherData] = useState(null);
-  const [error, setError] = useState(false);
+  const [error1, setError] = useState(false);
 
   const apiKey = "95f838fea3e27972e40e7b11618bc4ce";
   const apiURL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
@@ -13,13 +13,9 @@ function WeatherApp() {
     try {
       const response = await fetch(`${apiURL}${city}&appid=${apiKey}`);
       if (response.status === 404) {
-        alert(
-          "enter vsllid city"
-        )
         setError(true);
         setWeatherData(null);
       }else if(response.status===400){
-        alert("Please enter city Name")
         setError(true);
         setWeatherData(null);
       
@@ -35,8 +31,9 @@ function WeatherApp() {
 
   return (
    
-
-    <div className="card">
+<div className='bg-black dark:bg-grid-white/[0.2] bg-grid-gray/[0.2] w-full h-full overflow-hidden '>
+<div className='my-20'>
+    <div className="card ">
       <div className="search">
         <input
           type="text"
@@ -72,7 +69,9 @@ function WeatherApp() {
           </div>
         </div>
       )}
-      {error && <div className="error"><p>Invalid City or Place Name</p></div>}
+      {error1 && <div className="error1"><p>Invalid City or Place Name</p></div>}
+    </div>
+    </div>
     </div>
    
   );

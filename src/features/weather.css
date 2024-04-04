@@ -1,8 +1,5 @@
-body{
-    background-color: #000000; /* Black background */
-    background-image: linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.1) 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.1) 50%);
-    background-size: 20px 20px; /* Size of the grid cells */
-}
+
+
 .card{
     width: 100%;
     max-width: 470px;

@@ -25,7 +25,7 @@ export function IconCards() {
   );
   const featuredPlaces = courseData.places.filter((place: Places) => place);
   return (
-    <div className="min-h-screen w-full dark:bg-black bg-white dark:bg-grid-white/[0.2] bg-grid-black/[0.2] overflow-hidden">
+    <div className="w-full dark:bg-black bg-white dark:bg-grid-white/[0.2] bg-grid-black/[0.2] overflow-hidden">
       {/* <div className="mt-10 mx-8 w-full"> */}
       <h2 className="mb-8 text-center text-base text-teal-400 font-bold tracking-wide uppercase">
         Trending places in India

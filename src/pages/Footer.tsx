@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="overflow-x-hidden overflow-y-auto min-h-screen  w-full dark:bg-grey-800 bg-black dark:bg-grid-white/[0.2] bg-grid-black/[0.2]  py-12">
+    <footer className="overflow-x-hidden overflow-y-auto  w-full dark:bg-grey-800 bg-black dark:bg-grid-white/[0.2] bg-grid-black/[0.2]  py-12">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
