@@ -3,7 +3,7 @@
 .card{
     width: 100%;
     max-width: 470px;
-    background:linear-gradient(135deg,#013d2c,#07012b);
+    background:linear-gradient(135deg,#161f1c,#07012b);
     color:#fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -19,11 +19,11 @@
 .search input{
 border: 0;
 outline: 0;
-background: #014137;
+background: #17171a;
 color: #eee8e8;
 padding: 10px 25px;
-height: 60px;
-border-radius: 30px;
+height: 40px;
+border-radius: 10px;
 flex: 1;
 margin-right: 16px;
 font-size: 18px;
@@ -31,23 +31,25 @@ font-size: 18px;
 .search button{
     border: 0;
     outline: 0;
-    background: #014137;
+    background: #3333f0;
     align-items: end;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    border-radius: 10%;
+    height: 37px;
     cursor:pointer;
+    padding-left:25px;
+    padding-right: 25px;
+    
 }
 .search button:hover{
     background: #0e0253;
 }
 
-.search button img{
+/* .search button{
     
     width: 40px;
     padding-left: 18px;
     
-}
+} */
 .whether h1{
     font-size: 80px;
     font-weight: 500;
@@ -76,6 +78,10 @@ font-size: 18px;
 }
 .whether{
     display: none;
+    
+}
+.whether img{
+    margin: auto;
 }
 .error{
     text-align: left;
@@ -86,4 +92,31 @@ font-size: 18px;
 }
 .weather-deatils{
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin: 50px auto 0; /* Top margin, 10px right margin, no left margin */
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .search {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search input {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .search button {
+        margin-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+  
 }

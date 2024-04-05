@@ -32,7 +32,7 @@ function WeatherApp() {
   return (
    
 <div className='bg-black dark:bg-grid-white/[0.2] bg-grid-gray/[0.2] w-full h-full overflow-hidden '>
-<div className='my-20'>
+<div className='my-20 mx-4'>
     <div className="card ">
       <div className="search">
         <input
@@ -43,7 +43,7 @@ function WeatherApp() {
           value={city}
           onChange={(e) => setCity(e.target.value)}
         />
-        <button onClick={handleSearch}><img src="weather/search.png" alt="" /></button>
+        <button onClick={handleSearch}>Search</button>
       </div>
       {weatherData && (
         <div className="weather">
