@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const InfiniteMovingCards = ({
   items,
   direction = "left",
-  speed = "fast",
+  speed = "slow",
   pauseOnHover = true,
   className,
 }: {
@@ -94,7 +94,7 @@ export const InfiniteMovingCards = ({
           //     key={item.name}
           //   >
           <blockquote
-            className="w-[350px] max-w-full h-[250px] relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700  md:w-[950px]"
+            className="w-[200px] max-w-full h-[150px] relative rounded-2xl  flex-shrink-0   md:w-[600px]"
             style={{
               background:
                 "linear-gradient(180deg, var(--slate-800), var(--slate-900)",

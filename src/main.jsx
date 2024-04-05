@@ -10,7 +10,7 @@ import { PlacesGrid } from './pages/PlacesGrid.tsx'
 import { PopularDestinations } from './pages/PopularDestinations.tsx'
 import { Bihar_Places } from './states_India/Bihar.tsx'
 import { Kerala_Places } from './states_India/Kerala.tsx'
-import { GOA1 } from './states_India/Goa.tsx'
+import {  Goa_Places } from './states_India/Goa.tsx'
 import {Laksh} from "./states_India/Lakhshadweep.tsx"
 import { Karnataka_places } from './states_India/Karnataka.tsx'
 import { UP } from './states_India/UP.tsx'
@@ -20,6 +20,7 @@ import { LADAKH } from './states_India/Ladhakh.tsx'
 import { Mumbai_places } from './states_India/mumbai.tsx'
 import { ArtGalllery } from './pages/Art-Gallery.tsx'
 import WeatherApp from './features/weather.jsx'
+import { ParticularPlaces } from './subpages/ParticularPLaces.tsx'
 
 
 const HomePage=()=>(
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
         element:<Bihar_Places/>,
       },
       {
+        path:"/Karnataka",
+        element:<Karnataka_places/>,
+      },
+      {
         path:"/Kerala",
         element:<Kerala_Places/>,
       },
@@ -72,8 +77,12 @@ const router = createBrowserRouter([
         element:<UP/>,
       },
       {
-        path:"/Goa",
-        element:<GOA1/>,
+        path:"/GOA",
+        element:<Goa_Places/>,
+      },
+      {
+        path:"/Laksh",
+        element:<Laksh/>,
       },
 
       {
@@ -81,8 +90,12 @@ const router = createBrowserRouter([
         element:<WeatherApp/>,
       },
       {
-        path:"ArtGallery",
+        path:"/ArtGallery",
         element:<ArtGalllery/>
+      },
+      {
+        path:"/TajMahal",
+        element:<ParticularPlaces/>
       }
     ]
   }
