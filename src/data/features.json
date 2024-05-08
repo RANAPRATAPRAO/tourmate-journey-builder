@@ -14,7 +14,7 @@
         "description": "Explore any location",
         "isTrending": true,
         "image": "icons/map-2.png",
-        "link":  "/weather"
+        "link":  "/land"
       },
       {
         "id": 3,
@@ -54,7 +54,7 @@
         "description": "Find Mountains",
         "isTrending": true,
         "image": "icons/mountain.png",
-        "link":  "/weather"
+        "link":  "/mountain"
       },
       {
         "id": 8,
@@ -62,7 +62,7 @@
         "description": "Explore beaches",
         "isTrending": true,
         "image": "icons/beach.png",
-        "link":  "/weather"
+        "link":  "/beach"
       },
       {
         "id": 10,

@@ -21,6 +21,9 @@ import { Mumbai_places } from './states_India/mumbai.tsx'
 import { ArtGalllery } from './pages/Art-Gallery.tsx'
 import WeatherApp from './features/weather.jsx'
 import { ParticularPlaces } from './subpages/ParticularPLaces.tsx'
+import Mountains from './mountains/States_mountains.tsx'
+import {Beaches1} from './beaches/States_beaches.tsx'
+import IframeComponent from './map/Map.tsx'
 
 
 const HomePage=()=>(
@@ -96,6 +99,18 @@ const router = createBrowserRouter([
       {
         path:"/TajMahal",
         element:<ParticularPlaces/>
+      },
+      {
+        path:"/mountain",
+        element:<Mountains/>
+      },
+      {
+        path:"/beach",
+        element:<Beaches1/>,
+      },
+      {
+        path:"/land",
+        element:<IframeComponent/>,
       }
     ]
   }
