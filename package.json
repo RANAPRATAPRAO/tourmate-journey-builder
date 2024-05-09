@@ -10,13 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/card": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@radix-ui/react-label": "^2.0.2",
     "@react-three/drei": "^9.102.5",
     "@react-three/fiber": "^8.15.19",
     "@tabler/icons-react": "^3.1.0",
     "autoprefixer": "^10.4.18",
     "clsx": "^2.1.0",
-    "framer-motion": "^11.0.14",
+    "framer-motion": "^11.1.9",
     "mini-svg-data-uri": "^1.4.4",
     "postcss": "^8.4.35",
     "react": "^18.2.0",

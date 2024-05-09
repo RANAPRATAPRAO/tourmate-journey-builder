@@ -42,11 +42,11 @@
       },
       {
         "id": 6,
-        "title": "Panorma",
+        "title": "Hotel",
         "description": "Discover panorma",
         "isTrending": true,
         "image": "icons/panorama-vertical.png",
-        "link":  "/weather"
+        "link":  "/visitHotel"
       },
       {
         "id": 7,
@@ -70,7 +70,7 @@
         "description": "Find Restaurant",
         "isTrending": true,
         "image": "icons/chef-hat.png",
-        "link":  "/weather"
+        "link":  "/food"
       },
       {
         "id": 11,

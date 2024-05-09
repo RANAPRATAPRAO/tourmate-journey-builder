@@ -24,6 +24,8 @@ import { ParticularPlaces } from './subpages/ParticularPLaces.tsx'
 import Mountains from './mountains/States_mountains.tsx'
 import {Beaches1} from './beaches/States_beaches.tsx'
 import IframeComponent from './map/Map.tsx'
+import FoodPage from './restaurant/Food.tsx'
+import HotelPage from './hotel/Hotel.tsx'
 
 
 const HomePage=()=>(
@@ -111,7 +113,18 @@ const router = createBrowserRouter([
       {
         path:"/land",
         element:<IframeComponent/>,
+      },
+      {
+        path:"/food",
+        element:<FoodPage/>
+      },
+      {
+        path:"/visitHotel",
+        element:<HotelPage/>
       }
+    
+
+
     ]
   }
 ])
