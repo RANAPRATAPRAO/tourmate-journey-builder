@@ -8,70 +8,70 @@ const foodData = [
       name: 'Pizza Margherita',
       description: 'Classic pizza with tomato sauce, mozzarella, and basil.',
       price: '$10.99',
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      image: 'https://foodbyjonister.com/wp-content/uploads/2020/01/MargheritaPizza.jpg'
     },
     {
       id: 2,
       name: 'Grilled Salmon',
       description: 'Fresh grilled salmon served with steamed vegetables.',
       price: '$15.99',
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      image: 'https://th.bing.com/th/id/OIP.Ap6iEGbolwm_UjeHXNNIWAHaK-?rs=1&pid=ImgDetMain'
     },
     {
       id: 3,
       name: 'Pasta Carbonara',
       description: 'Classic Italian pasta dish made with eggs, cheese, bacon, and pepper.',
       price: '$12.99',
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      image: 'https://www.cookingclassy.com/wp-content/uploads/2020/10/spaghetti-carbonara-01-1024x1536.jpg'
     },
     {
       id: 4,
       name: 'Caesar Salad',
       description: 'Fresh romaine lettuce, croutons, parmesan cheese, and Caesar dressing.',
       price: '$8.99',
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      image: 'https://bing.com/th?id=OSK.5773c1a49df8f8e641f5a11e18cf5c59'
     },
     {
       id: 5,
       name: 'Tiramisu',
       description: 'Classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.',
       price: '$7.99',
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      image: 'https://bing.com/th?id=OSK.3ea6400452d1cafba030c46baa9bf0bb'
     },
     {
       id: 6,
       name: 'Sushi Platter',
       description: 'Assorted sushi rolls and sashimi pieces served with soy sauce, wasabi, and pickled ginger.',
       price: '$18.99',
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      image: 'https://th.bing.com/th/id/OIP.yBcIx7Gq4k6Ycw5KLxtL0wHaJ4?rs=1&pid=ImgDetMain'
     },
     {
       id: 7,
       name: 'Chicken Tikka Masala',
       description: 'Tender pieces of chicken cooked in a creamy tomato-based sauce with aromatic spices.',
       price: '$13.99',
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      image: 'https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Tikka-Masala-min.jpg'
     },
     {
       id: 8,
       name: 'BBQ Ribs',
       description: 'Slow-cooked ribs smothered in tangy barbecue sauce, served with coleslaw and fries.',
       price: '$16.99',
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      image: 'https://bing.com/th?id=OSK.6603551528ba4a5aaf3f57b0d3fc5085'
     },
     {
       id: 9,
       name: 'Chocolate Lava Cake',
       description: 'Warm chocolate cake with a gooey molten center, served with vanilla ice cream.',
       price: '$9.99',
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      image: 'https://tornadoughalli.com/wp-content/uploads/2020/02/LAVA-CAKES-18-768x1077.jpg'
     },
     {
       id: 10,
       name: 'Vegetable Stir Fry',
       description: 'Assorted vegetables stir-fried in a savory sauce, served over steamed rice.',
       price: '$11.99',
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      image: 'https://bing.com/th?id=OSK.afe0b0732f41eaf93c37a27c224c434d'
     },
   ];
   

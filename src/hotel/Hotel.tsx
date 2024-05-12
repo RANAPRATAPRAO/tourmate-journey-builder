@@ -20,7 +20,7 @@ const HotelData = [
       "Experience ultimate luxury and relaxation at our resort and spa.",
     price: "$299.99 per night",
     photo:
-    "https://images.unsplash.com/photo-1519974719765-e6559eac2575?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80",
+    "https://th.bing.com/th/id/OIP.7srIbLy1WnzLRNqhELTqSQHaE7?rs=1&pid=ImgDetMain",
 },
   {
     id: 2,
@@ -28,7 +28,7 @@ const HotelData = [
     description: "Relax by the sea in our charming seaside villa.",
     price: "$199.99 per night",
     photo:
-    "https://images.unsplash.com/photo-1519974719765-e6559eac2575?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80",
+    "https://th.bing.com/th/id/OIP.gv5OpoWHSuI20lI_PU-hnQHaE8?rs=1&pid=ImgDetMain",
 },
   {
     id: 3,
@@ -45,7 +45,7 @@ const HotelData = [
       "Stay in the heart of the city and explore all it has to offer.",
     price: "$249.99 per night",
     photo:
-    "https://images.unsplash.com/photo-1519974719765-e6559eac2575?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80",
+    "https://th.bing.com/th/id/OIP.AtsC1METE-txY4l1LyVelAHaEJ?rs=1&pid=ImgDetMain",
 },
   {
     id: 5,
@@ -53,7 +53,7 @@ const HotelData = [
     description: "Enjoy a peaceful stay by the river in our cozy lodge.",
     price: "$159.99 per night",
     photo:
-    "https://images.unsplash.com/photo-1519974719765-e6559eac2575?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80",
+    "https://www.shortstayhomes.co.uk/wp-content/uploads/2015/12/Riverside-lodge-at-dusk.jpg",
 },
   {
     id: 6,
@@ -61,7 +61,7 @@ const HotelData = [
     description: "Experience serenity in the midst of the desert at our oasis.",
     price: "$179.99 per night",
     photo:
-    "https://images.unsplash.com/photo-1519974719765-e6559eac2575?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80",
+    "https://th.bing.com/th/id/OIP.tRWyIP7EaHUte7ghua3rVAHaFj?rs=1&pid=ImgDetMain",
 },
   {
     id: 7,
@@ -69,7 +69,7 @@ const HotelData = [
     description: "Step back in time and stay in our historic manor house.",
     price: "$349.99 per night",
     photo:
-    "https://images.unsplash.com/photo-1519974719765-e6559eac2575?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80",
+    "https://th.bing.com/th/id/OIP.ULKhVVXHFoiSIQdbbagaXQHaE8?rs=1&pid=ImgDetMain",
 },
   {
     id: 8,
@@ -77,7 +77,7 @@ const HotelData = [
     description: "Escape to our tropical paradise and enjoy luxury amenities.",
     price: "$399.99 per night",
     photo:
-    "https://images.unsplash.com/photo-1519974719765-e6559eac2575?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80",
+    "https://th.bing.com/th/id/OIP.2neZF_ZL3u_nEHWUPya_aQHaFP?rs=1&pid=ImgDetMain",
 },
   {
     id: 9,
@@ -85,7 +85,7 @@ const HotelData = [
     description: "Hit the slopes and then relax in our cozy ski chalet.",
     price: "$299.99 per night",
     photo:
-    "https://images.unsplash.com/photo-1519974719765-e6559eac2575?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80",
+    "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2019/11/Rochebrune-_3__354774162_599495451-1620x1081.jpg",
 },
   {
     id: 10,
@@ -93,7 +93,7 @@ const HotelData = [
     description: "Experience modern urban living in our stylish loft space.",
     price: "$179.99 per night",
     photo:
-    "https://images.unsplash.com/photo-1519974719765-e6559eac2575?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80",
+    "https://i.pinimg.com/originals/44/82/a6/4482a6069333664e0ceea082e4446c00.jpg",
 },
 ];
 

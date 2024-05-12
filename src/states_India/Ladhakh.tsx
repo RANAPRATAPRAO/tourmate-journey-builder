@@ -60,37 +60,37 @@ const Ladakh = [
     {
       title: "Hemis Monastery",
       description: "Immerse yourself in the spiritual ambiance of Hemis Monastery, one of the largest and wealthiest monasteries in Ladakh. Witness colorful festivals, ancient rituals, and a rich collection of Buddhist artifacts and thangkas.",
-      header: "images/hemis_monastery.jpg",
+      header: "https://i.ytimg.com/vi/UZA0RkL2HN4/maxresdefault.jpg",
       icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
     },
     {
       title: "Tso Moriri Lake",
       description: "Experience the serene beauty of Tso Moriri Lake, a high-altitude lake located in the Changthang plateau. Surrounded by snow-capped mountains and vast meadows, this pristine lake is a haven for birdwatchers and nature enthusiasts.",
-      header: "images/tso_moriri_lake.jpg",
+      header: "https://media-cdn.tripadvisor.com/media/photo-s/16/22/46/bc/tso-moriri-karzog-village.jpg",
       icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
     },
     {
       title: "Diskit Monastery",
       description: "Discover the ancient Diskit Monastery, perched on a hilltop in the Nubra Valley. Admire the stunning views of the surrounding landscape and explore the monastery's intricate murals, statues, and prayer halls.",
-      header: "images/diskit_monastery.jpg",
+      header: "https://pixahive.com/wp-content/uploads/2020/09/Diskit-Monastery-in-the-Nubra-Valley-of-Ladakh-46726-pixahive.jpg",
       icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     },
     {
       title: "Zanskar Valley",
       description: "Embark on an adventure to Zanskar Valley, a remote and pristine region known for its rugged terrain, ancient monasteries, and adventurous treks. Explore frozen rivers, high mountain passes, and traditional Ladakhi villages.",
-      header: "images/zanskar_valley.jpg",
+      header: "https://www.holidify.com/images/compressed/attractions/attr_458.jpg",
       icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     },
     {
       title: "Shanti Stupa",
       description: "Find peace and tranquility at Shanti Stupa, a white-domed Buddhist stupa perched atop a hill in Leh. Enjoy panoramic views of the Leh cityscape, surrounding mountains, and the Indus River valley from this sacred monument.",
-      header: "images/shanti_stupa.jpg",
+      header: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/3-shanti-stupa-ladakh-jammu-and-kashmir-india-rudra-narayan-mitra.jpg",
       icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     },
     {
       title: "Lamayuru Monastery",
       description: "Visit the ancient Lamayuru Monastery, one of the oldest and largest monasteries in Ladakh. Explore the monastery's unique architecture, sacred relics, and mesmerizing lunar-like landscape that surrounds it.",
-      header: "images/lamayuru_monastery.jpg",
+      header: "https://www.journeysinternational.com/wp-content/uploads/2019/04/lamayuru-monastery-india.jpg",
       icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     },
   ];
