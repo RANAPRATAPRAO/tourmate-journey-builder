@@ -78,7 +78,7 @@
         "description": "Explore art gallery",
         "isTrending": true,
         "image": "icons/artboard.png",
-        "link":  "/weather"
+        "link":  "/ArtGallery"
       }
     ],
 

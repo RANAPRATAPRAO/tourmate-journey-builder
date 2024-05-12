@@ -36,25 +36,25 @@ const Ladakh = [
     {
       title: "Pangong Lake",
       description: "Marvel at the enchanting beauty of Pangong Lake, a breathtaking high-altitude lake situated amidst the majestic Himalayas. The crystal-clear blue waters and dramatic landscape make it a popular destination for photography and relaxation.",
-      header: "images/pangong_lake.jpg",
+      header: "https://img.onmanorama.com/content/dam/mm/en/travel/beyond-kerala/images/2020/6/11/pangong-lake.jpg",
       icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
     },
     {
       title: "Nubra Valley",
       description: "Embark on a journey to the surreal landscapes of Nubra Valley, known for its stark beauty and unique attractions like sand dunes and double-humped Bactrian camels. Experience the tranquility of this high-altitude desert region.",
-      header: "images/nubra_valley.jpg",
+      header: "https://farm9.staticflickr.com/8530/8675364814_728630e0ac_k.jpg",
       icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     },
     {
       title: "Leh Palace",
       description: "Explore the historic Leh Palace, a former royal palace perched on a hill overlooking the town of Leh. Marvel at the traditional Tibetan architecture, ancient artifacts, and panoramic views of the surrounding mountains and valleys.",
-      header: "images/leh_palace.jpg",
+      header: "https://imgcld.yatra.com/ytimages/image/upload/v1462517217/Leh-Leh_Palace2.jpg",
       icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     },
     {
       title: "Khardung La Pass",
       description: "Conquer the world's highest motorable pass, Khardung La, and enjoy breathtaking views of the snow-capped Himalayas. Challenge yourself with the high-altitude drive or motorcycle ride to reach this iconic mountain pass.",
-      header: "images/khardung_la_pass.jpg",
+      header: "https://discoverlehladakh.in/wp-content/uploads/2020/06/Khardung-la-pass.jpg",
       icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     },
     {

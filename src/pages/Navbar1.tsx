@@ -37,5 +37,5 @@ export function Navbar1() {
       ),
     },
   ];
-  return <FloatingNav navItems={navItems} /> 
+  return <FloatingNav navItems={navItems}  /> 
 }

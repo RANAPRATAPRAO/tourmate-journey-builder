@@ -5,12 +5,13 @@ import {Outlet} from 'react-router-dom';
 
 function App(){
   return(
-<>
+<div>
      <Navbar1/>
      <Outlet/>
-     <div id="Footer"><Footer/></div>
+     <Footer/>
+     
 
-    </>
+    </div>
     
   )
 }
